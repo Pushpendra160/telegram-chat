@@ -1,0 +1,175 @@
+.home-screen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.chat-data{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(33,33,33);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    
+}
+.show-msg-screen{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(33,33,33);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+.chat-data-content{
+    width: 100%;
+    position: absolute;
+}
+
+.chat-screen-data{
+    width: 65%;
+    height: 100%;
+    background-color: rgb(15,15,15);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.chat-data-header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.chat-search-box{
+    width: 70%;
+    background-color: rgb(44,44,44);
+    border-radius: 20px 20px;
+    border: none;
+    /* padding-left: 30px; */
+    padding: 10px 20px;
+
+    margin-left: 10px;
+    color: white;
+
+}
+
+.chat-data-list{
+    overflow:hidden;
+   
+    padding-top: 20px;
+   
+   
+}
+.chat-info{
+    display: flex;
+    
+    cursor: pointer;
+}
+.chat-info:hover{
+    background-color: rgb(44,44,44) ;
+}
+.user-image{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    padding-left: 10px;
+    border-radius: 50%;
+}
+.chat-name{
+    margin-left: 10px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.chat-name h3{
+    margin-bottom: -10px;
+    font-size: 1rem;
+}
+.chat-name p{
+  
+    font-size: 1rem;
+}
+.chat-name span{
+  
+    color: grey;
+}
+.chat-info-date{
+    margin-right: 10px;
+    padding-top: 10px;
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.no-msg{
+    padding: 5px 10px ;
+    background-color: rgb(44,44,44);
+    border-radius: 20px 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+.chat-sidebar-content{
+    position: absolute;
+    width: 100vw;
+
+   z-index:10 ;
+
+   
+}
+/* .chat-sidebar{
+   background-color: black;
+
+   opacity: 1;
+    height: 100vh;
+    z-index: 100;
+   
+    
+
+} */
+
+
+
+@media only screen and (max-width: 600px) {
+    .chat-data-header{
+        justify-content: space-between;
+        margin-right: 20px;
+        
+    }
+    .chat-search-box{
+        margin-right: 40px;
+        width: 80%;
+        
+    }
+    .no-msg{
+        display: none;
+        position: relative;
+    }
+    .chat-data {
+
+        width: 100vw;
+        position: absolute;
+        overflow: hidden;
+        
+    }
+    .chat-screen-data-msg{
+        width: 100vw;
+        position: absolute;
+        overflow: hidden;
+       
+    }
+    .show-msg-screen{
+        display: none;
+    }
+   
+
+}
