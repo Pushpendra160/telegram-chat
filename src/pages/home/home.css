@@ -60,15 +60,15 @@
 }
 
 .chat-data-list{
-    overflow:hidden;
-   
+  
     padding-top: 20px;
    
    
 }
 .chat-info{
     display: flex;
-    
+   
+   
     cursor: pointer;
 }
 .chat-info:hover{

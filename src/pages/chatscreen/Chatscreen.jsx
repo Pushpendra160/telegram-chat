@@ -24,7 +24,7 @@ const Chatscreen = ({username, userid}) => {
         setError(err);
         setLoading(false);
       });
-  }, []);
+  }, [userid]);
 
   if (loading) {
     return <div>Loading...</div>;

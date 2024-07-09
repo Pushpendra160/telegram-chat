@@ -43,6 +43,7 @@
 }
 .chat-screen-msg-content{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items : center;
     height: 80%;
@@ -87,6 +88,7 @@ input:focus{
   .message {
     padding: 8px;
     margin: 5px;
+   
     border-radius: 8px;
   }
   
